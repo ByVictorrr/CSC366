@@ -1,0 +1,24 @@
+<!DOCTYPE bakery[
+    <!ELEMENT bakery (cakes, twists, receipts)>
+        <!ELEMENT cakes (item)+>
+        <!ELEMENT twists (item)+>
+        <!ELEMENT receipts (receipts)+>
+            <!ELEMENT receipt (item)+>
+
+                <!ATTLIST receipt
+                    number CDATA #REQUIRED
+                    date CDATA #REQUIRED
+                >
+
+
+            <!ELEMENT item EMPTY>
+
+                <!ATTLIST item 
+                    id ID #IMPLIED
+                    flavor CDATA #IMPLIED
+                    price CDATA #IMPLIED
+                    glutenFree (yes|no) #IMPLIED
+                    code IDREF #IMPLIED 
+                >
+
+]>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<bakery>
+    <cakes>
+        <item id="CC" flavor="Casino" price="19.95" glutenFree="yes" />
+        <item id="LC" flavor="Lemon" price="12.25" />
+    </cakes>
+    <twists>
+        <item id="AT" flavor="Almond" price="5.05" />
+        <item id="LT" flavor="Lemon" price="5.05" />
+    </twists>
+    <receipts>
+        <receipt number="0001" date="2020-01-01">
+            <item code="CC" /> 
+            <item code="AT" />
+        </receipt>
+        <receipt number="0002" date="2020-01-01">
+            <item code="AT" /> 
+            <item code="AT" /> 
+            <item code="LT" />
+        </receipt>
+    </receipts>
+</bakery>

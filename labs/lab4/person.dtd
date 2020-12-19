@@ -1,0 +1,14 @@
+<!DOCTYPE people 
+[
+<!ELEMENT people (person)+>
+<!ELEMENT person (firstName,lastName?,birthDate?,SSN)>
+<!ATTLIST person
+id ID #REQUIRED
+role (staff|student|faculty) #REQUIRED
+>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA|suffix)*>
+<!ELEMENT suffix (#PCDATA)>
+<!ELEMENT birthDate (#PCDATA)>
+<!ELEMENT SSN (#PCDATA)>
+]>

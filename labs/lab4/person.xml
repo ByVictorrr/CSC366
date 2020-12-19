@@ -1,0 +1,14 @@
+
+<?xml version="1.0"?>
+<people>
+    <person id="10" role="student">
+        <firstName>Victor</firstName>
+        <lastName>Delaplaine</lastName>
+            <suffix>jr</suffix>
+        <birthDate>Jan 8, 1997</birthDate>
+        <SSN>12342</SSN>
+    </person>
+    <person id="11" role="staff">
+        <firstName>Joe</firstName>
+        <SSN>12323</SNN>
+</people>
